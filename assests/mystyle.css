@@ -1,0 +1,51 @@
+#propsition{
+
+   
+    border: black solid 2px;
+    margin-top: 10px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+margin-bottom: 20px;
+
+    
+}
+
+#thematique{
+
+
+    background-color: black;
+    color: white;
+}
+#author{
+
+	font-style : italic;
+}
+
+#like{
+text-align: center;
+}
+
+#thematique,#author,#title,#description,#image,#like,#comments{
+
+padding: 10px !important;
+
+}
+.button_prop {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 50%;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 18px 10px !important;
+  margin-top: 5px;
+
+}
+
+.button_prop:hover {opacity: 0.5}
